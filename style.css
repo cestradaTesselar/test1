@@ -1,0 +1,27 @@
+.list li:active{
+    display: none;
+}
+.list{
+    padding: 0;
+}
+
+.list li{
+    list-style: none;
+    padding: 5px;
+    color:#223a0a;
+    background: #e2e2e2;
+}
+.button{
+    border-radius: 2px;
+    background: white;
+    height: 50px;
+    width: 50px;
+}
+.new-entry{
+    border-radius: 4px;
+    height: 25px;
+    width: 250px;
+}
+.button:hover{
+    cursor: pointer;
+}
